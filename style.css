@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+    
+    background-image: url(cs\ picture.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color:aqua
+
+}
+nav{
+    background-color: blue;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav li{
+    display: inline-block;
+    margin:0 8px;
+}
+nav a{
+    text-decoration: none;
+    color: brown;
+}
+.logo{
+    font-size:   36px ;
+    font-weight: bolder;
+}
+nav a:hover{
+    color: skyblue;
+}
+.menu-line{
+    height: 3px;
+    width: 20px;
+    background-color: brown;
+    margin-bottom: 3px;
+}
+.menu{
+    cursor: pointer;
+    display: none;
+}
+@media all and (max-width:484px){
+    nav{
+        flex-direction: column;
+
+    }
+    nav li{
+        display: block;
+        padding: 10px 0;
+    }
+    ul{
+        text-align: center;
+        display: none;
+    }
+    .logo{
+        align-self: self-start;
+        margin: 10px 0px 0px 30px;
+    }
+
+    .menu{
+        display: block;
+        position:absolute;
+        right: 20px;
+        top: 25px;
+    }
+    .showmenu{
+        display: block;
+    }
+
+}
+h1{
+    text-align: center;
+  }
+
+    
+
+
+
+
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+image{
+    background-image:url("picture.jpg");
+    
+
+    
+
+}
